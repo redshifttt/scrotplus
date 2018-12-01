@@ -1,3 +1,4 @@
+#!/bin/bash
 #import script for screenshotting
 
 if [ -d ~/.scrots/ ]; then
