@@ -1,0 +1,12 @@
+#import script for screenshotting
+
+if [ -d ~/.scrots/ ]; then
+  return
+else
+  mkdir ~/.scrots/
+fi
+
+import ~/.scrots/image.png -quality 0
+convert ~/.scrots/image.png -shave 1x1 +repage image.png
+xclip -sel clip -t image/png -i image.png
+mv ~/.scrots/image.png ~/.scrots/`date +%Y-%m-%d_%T`.png
