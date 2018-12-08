@@ -27,10 +27,13 @@ I would recommend assigning the program to a keybind so it's easier to use
 
 # Usage
 
-The first time you run the brogram it will create a directory in your `/home` folder called `.scrots/` which is where it stores the scrots. It will then change your cursor into a crosshair from which you select the part of the screen you want to screenshot. It will then capture said section and store it in the `~/.scrots` folder with the date and time of capture (yyyy-mm-dd_H:M:S) that way it auto organises itself. Also after capture it automatically saves the image to your primary clipboard for easy sharing on things such as Discord etc.
+The first time you run the program it will create a directory in your `/home` folder called `.scrots/` which is where it stores the scrots. It will then change your cursor into a crosshair from which you select the part of the screen you want to screenshot. It will then capture said section and store it in the `~/.scrots` folder with the date and time of capture (yyyy-mm-dd_H:M:S) that way it auto organises itself. Also after capture it automatically saves the image to your primary clipboard for easy sharing on things such as Discord etc.
 
 # Dependencies
 
 * `bash`
 * `imagemagick`
 * `xclip`
+
+### Note:
+* As far as i'm aware it doesnt work on *BSD or macOS
