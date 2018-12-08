@@ -36,4 +36,4 @@ The first time you run the program it will create a directory in your `/home` fo
 * `xclip`
 
 ### Note:
-* As far as i'm aware it doesnt work on *BSD or macOS
+* As far as i'm aware it doesn't work on *BSD or macOS
