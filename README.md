@@ -32,8 +32,8 @@ The first time you run the program it will create a directory in your `/home` fo
 # Dependencies
 
 * `bash`
-* `imagemagick`
+* `scrot`
 * `xclip`
 
 ### Note:
-* As far as i'm aware it doesn't work on *BSD or macOS
+* As far as I'm aware it doesn't work on *BSD or macOS
