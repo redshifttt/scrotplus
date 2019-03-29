@@ -1,13 +1,8 @@
 #!/bin/bash
 #import script for screenshotting
 
-if [ -d ~/.scrots/ ]; then
-  return
-else
-	mkdir ~/.scrots/
-fi
-		
-import ~/.scrots/image.png -quality 0
-convert ~/.scrots/image.png -shave 1x1 +repage image.png
-xclip -sel clip -t image/png -i image.png
-mv ~/.scrots/image.png ~/.scrots/`date +%Y-%m-%d_%T`.png]
+[ -d $HOME/.scrots/ ] && : || mkdir $HOME/.scrots
+
+escrotum -C -s ~/.scrots/image.png
+xclip -selection clipboard -t image/png -o > ~/.scrots/`date '+%Y-%m-%d_%T'`.png
+notify-send -t 3000 "<b>scrotplus:</b> $(command ls ~/.scrots | tail -n 1) saved to clipboard and file."
