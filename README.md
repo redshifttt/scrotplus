@@ -15,9 +15,13 @@ then by moving the `scrotplus` program to your `/usr/bin` directory. Alternative
 
 `$ sudo ln -s ~/path/to/scrotplus /usr/bin/scrotplus`
 
+or you could just make it executable then and there:
+
+`$ chmod +x scrotplus`
+
 After that just restart bash by typing into your terminal:
 
-`$ bash`
+`$ source ~/.bashrc`
 
 or by just restarting your terminal emulator.
 
@@ -31,9 +35,11 @@ The first time you run the program it will create a directory in your `/home` fo
 
 # Dependencies
 
-* `bash`
-* `scrot`
+* `escrotum`
+* `libnotify` (optional. If you don't want notifications you can just comment out the last line of the program.)
 * `xclip`
 
 ### Note:
 * As far as I'm aware it doesn't work on *BSD or macOS
+
+<footer>Made with vim.</footer>
