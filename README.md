@@ -41,5 +41,3 @@ The first time you run the program it will create a directory in your `/home` fo
 
 ### Note:
 * As far as I'm aware it doesn't work on *BSD or macOS
-
-<footer>Made with vim.</footer>
