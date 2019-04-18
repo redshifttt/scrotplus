@@ -40,4 +40,4 @@ The first time you run the program it will create a directory in your `/home` fo
 * `xclip`
 
 ### Note:
-* As far as I'm aware it doesn't work on *BSD or macOS
+* It [doesn't](https://cdn.discordapp.com/attachments/515300853079474186/568473698034647041/unknown.png) work on *BSD. 
