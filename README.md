@@ -40,4 +40,4 @@ The first time you run the program it will create a directory in your `/home` fo
 * `xclip`
 
 ### Note:
-* It [doesn't](https://cdn.discordapp.com/attachments/515300853079474186/568473698034647041/unknown.png) work on *BSD. 
+* It [doesn't](https://cdn.discordapp.com/attachments/515300853079474186/568473698034647041/unknown.png) work on *BSD, mainly due to xclip not working properly.
