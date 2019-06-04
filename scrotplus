@@ -1,8 +1,9 @@
 #!/bin/bash
-#import script for screenshotting
+# scrotplus - the simple screengrabber
 
-[ -d $HOME/.scrots/ ] && : || mkdir $HOME/.scrots
+dir="$HOME/.scrots" # change this to change where you want the scrots to be saved to
+[ -d $dir ] && : || mkdir $dir
 
-escrotum -C -s ~/.scrots/image.png
-xclip -selection clipboard -t image/png -o > ~/.scrots/`date '+%Y-%m-%d_%T'`.png
-notify-send -t 3000 "<b>scrotplus:</b> $(command ls ~/.scrots | tail -n 1) saved to clipboard and file."
+cd $dir
+ffcast -s png "$(date '+%F_%H:%M:%S').png"
+xclip -selection clipboard -t image/png -i "$(command ls -1 | sed -n '$p')"
