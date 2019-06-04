@@ -11,13 +11,7 @@ To install `scrotplus` clone the repo by doing:
 
 `$ git clone https://github.com/numpadd/scrotplus/`
 
-then by moving the `scrotplus` program to your `/usr/bin` directory. Alternatively you can also symlink the program by doing:
-
-`$ sudo ln -s ~/path/to/scrotplus /usr/bin/scrotplus`
-
-or you could just make it executable then and there:
-
-`$ chmod +x scrotplus`
+then by moving the `scrotplus` program to your `/usr/bin` directory. 
 
 After that just restart bash by typing into your terminal:
 
@@ -31,12 +25,11 @@ I would recommend assigning the program to a keybind so it's easier to use
 
 # Usage
 
-The first time you run the program it will create a directory in your `/home` folder called `.scrots/` which is where it stores the scrots. It will then change your cursor into a crosshair from which you select the part of the screen you want to screenshot. It will then capture said section and store it in the `~/.scrots` folder with the date and time of capture (yyyy-mm-dd_H:M:S) that way it auto organises itself. Also after capture it automatically saves the image to your primary clipboard for easy sharing on things such as Discord etc.
+Just run it or bind it to a keybind and the cursor will change to a crosshair and you can select what you want to screenshot.
 
 # Dependencies
 
-* `escrotum`
-* `libnotify` (optional. If you don't want notifications you can just comment out the last line of the program.)
+* `ffcast`
 * `xclip`
 
 ### Note:
