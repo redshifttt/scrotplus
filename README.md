@@ -29,7 +29,7 @@ Just run it or bind it to a keybind and the cursor will change to a crosshair an
 
 # Dependencies
 
-* `ffcast`
+* `maim`
 * `xclip`
 
 ### Note:
