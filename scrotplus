@@ -1,9 +1,4 @@
 #!/bin/bash
-# scrotplus - the simple screengrabber
-
-dir="$HOME/.scrots" # change this to change where you want the scrots to be saved to
-[ -d $dir ] && : || mkdir $dir
-
-cd $dir
-ffcast -s png "$(date '+%F_%H:%M:%S').png"
-xclip -selection clipboard -t image/png -i "$(command ls -1 | sed -n '$p')"
+# the simple screengrabber
+# got rid of the saving to a dir because xclip had some issues so keeping with this as it's simple and doesn't make me wanna explode
+maim -su | xclip -selection clipboard -t image/png
