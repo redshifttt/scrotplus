@@ -15,12 +15,6 @@ then move the `scrotplus` program to your `/usr/bin` directory or run the make f
 
 `$ make`
 
-After that just restart bash by typing into your terminal:
-
-`$ source ~/.bashrc`
-
-or by just restarting your terminal emulator.
-
 #### Advice
 
 I would recommend assigning the program to a keybind so it's easier to use
