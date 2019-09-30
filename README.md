@@ -11,7 +11,7 @@ To install `scrotplus` clone the repo by doing:
 
 `$ git clone https://github.com/numpadd/scrotplus/`
 
-then move the `scrotplus` program to your `/usr/bin` directory or run the make file with
+then run the make file with
 
 `$ make`
 
