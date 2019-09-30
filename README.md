@@ -1,17 +1,19 @@
-<h1 align="center">scrotplus</h1>
-<p align="center">Easy-to-use Linux Screenshotter</p>
+# scrotplus
+Easy-to-use Linux Screenshotter
 
 ---
 
 `scrotplus` is an easy to use and setup screenshotter for linux meant to replace the standard screenshot program that comes with your Desktop Environment such as [xfce4-screenshooter](https://git.xfce.org/apps/xfce4-screenshooter/).
 
-# Installation
+## Installation
 
 To install `scrotplus` clone the repo by doing:
 
 `$ git clone https://github.com/numpadd/scrotplus/`
 
-then move the `scrotplus` program to your `/usr/bin` directory. 
+then move the `scrotplus` program to your `/usr/bin` directory or run the make file with
+
+`$ make`
 
 After that just restart bash by typing into your terminal:
 
@@ -19,17 +21,17 @@ After that just restart bash by typing into your terminal:
 
 or by just restarting your terminal emulator.
 
-### Advice
+#### Advice
 
 I would recommend assigning the program to a keybind so it's easier to use
 
-# Usage
+## Usage
 
 Just run it or bind it to a keybind and the cursor will change to a crosshair and you can select what you want to screenshot.
 
-# Dependencies
+## Dependencies
 
-* `maim`
+* `maim` - after so much trouble i might've found the best linux screenshot tool
 * `xclip`
 
 ### Note:

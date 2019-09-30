@@ -1,4 +1,3 @@
 #!/bin/bash
 # the simple screengrabber
-# got rid of the saving to a dir because xclip had some issues so keeping with this as it's simple and doesn't make me wanna explode
 maim -su | xclip -selection clipboard -t image/png
